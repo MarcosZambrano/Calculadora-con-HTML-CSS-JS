@@ -1,0 +1,38 @@
+body { 
+    background-color: #bebebe;
+    font-family: sans-serif;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.button {
+    width: 50px;
+    height: 50px;
+    font-size: 25px;
+    margin: 2px;
+    cursor: pointer;
+    border: none;
+    color: white;
+    background-color: #515a9b;
+    border-radius: 3px;
+}
+
+.textview {
+    width: 206px;
+    height: 30px;
+    margin: 5px;
+    font-size: 25px;
+    padding: 5px;
+    color: grey;
+    border-radius: 3px;
+}
+
+.main {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+}
